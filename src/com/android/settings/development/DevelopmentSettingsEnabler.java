@@ -43,6 +43,8 @@ public class DevelopmentSettingsEnabler implements LifecycleObserver, OnResume {
     @Override
     public void onResume() {
         updateEnabledState();
+        mLastEnabledState = Settings.Global.getInt(mContext.getContentResolver(),
+                Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1) != 0;
     }
 
     public static boolean enableDevelopmentSettings(Context context, SharedPreferences prefs) {
