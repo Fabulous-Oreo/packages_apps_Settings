@@ -49,4 +49,8 @@
     <string name="hardware_keys_action_screenshot">Screenshot</string>
     <string name="hardware_keys_action_partial_screenshot">Partial screenshot</string>
     <string name="hardware_keys_action_pip">PiP</string>
+
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>    
+
 </resources>
