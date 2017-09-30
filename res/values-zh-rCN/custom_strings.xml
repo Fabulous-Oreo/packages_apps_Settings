@@ -15,7 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Buttons -->
-    <string name="button_title">按键设置</string>
+    <string name="button_settings_title">按键设置</string>
+    <string name="button_settings_summary">按键和导航栏</string>
 
     <!-- Buttons backlight -->
     <string name="button_brightness_title">背光</string>
