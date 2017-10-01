@@ -48,6 +48,6 @@
     <string name="hardware_keys_action_pip">PiP</string>
 
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-    <string name="local_backup_password_title">Password di backup desktop</string>    
+    <string name="local_backup_password_title">Password backup desktop</string>    
 
 </resources>
