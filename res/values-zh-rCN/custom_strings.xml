@@ -50,4 +50,9 @@
     <string name="hardware_keys_action_screenshot">屏幕截图</string>
     <string name="hardware_keys_action_partial_screenshot">区域截图</string>
     <string name="hardware_keys_action_pip">画中画</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">解锁情况下，在电源菜单加入选项以重启至恢复模式、引导模式或执行软重启。</string>
+
 </resources>
