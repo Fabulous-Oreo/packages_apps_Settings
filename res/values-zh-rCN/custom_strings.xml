@@ -55,4 +55,8 @@
     <string name="advanced_reboot_title">高级重启</string>
     <string name="advanced_reboot_summary">解锁情况下，在电源菜单加入选项以重启至恢复模式、引导模式或执行软重启。</string>
 
+    <!-- Encryption and credential -->
+    <string name="custom_encryption_and_credential_settings_summary_on">设备已加密</string>
+    <string name="custom_encryption_and_credential_settings_summary_off">设备未加密</string>
+
 </resources>
