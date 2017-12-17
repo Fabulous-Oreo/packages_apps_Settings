@@ -72,6 +72,12 @@
                 android:title="@string/button_settings_title"
                 android:summary="@string/button_settings_summary"/>
 
+       <com.android.settings.custom.preferences.SystemSettingSwitchPreference
+                android:key="pixel_nav_animation"
+                android:title="@string/pixel_navbar_anim_title"
+                android:summary="@string/pixel_navbar_anim_summary"
+                android:defaultValue="true" />
+
         <Preference
                 android:fragment="com.android.settings.accessibility.ToggleAutoclickPreferenceFragment"
                 android:key="autoclick_preference_screen"
