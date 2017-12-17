@@ -57,4 +57,7 @@
     <string name="custom_encryption_and_credential_settings_summary_on">Device is encrypted</string>
     <string name="custom_encryption_and_credential_settings_summary_off">Device is decrypted</string>
 
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Enable Pixel navbar animation</string>
+    <string name="pixel_navbar_anim_summary">Requires a SystemUI restart</string>
 </resources>
