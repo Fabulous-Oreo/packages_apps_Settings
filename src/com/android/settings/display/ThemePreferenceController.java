@@ -23,6 +23,7 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.support.annotation.VisibleForTesting;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -118,12 +119,14 @@ public class ThemePreferenceController extends AbstractPreferenceController impl
         }
         try {
             mOverlayService.setEnabledExclusive((String) newValue, true, UserHandle.myUserId());
-            Toast.makeText(mContext, R.string.theme_confirmation,
+            Settings.System.putInt(mContext.getContentResolver(), Settings.System.RELOAD_THEMES, 1);
+/*          Toast.makeText(mContext, R.string.theme_confirmation,
                 Toast.LENGTH_LONG).show();
             Intent goHome = new Intent(Intent.ACTION_MAIN);
             goHome.addCategory(Intent.CATEGORY_HOME);
             goHome.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             mContext.startActivity(goHome);
+*/
         } catch (RemoteException e) {
             return false;
         }
